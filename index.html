@@ -5,9 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Even-or-Odd Guess (0–1000)</title>
 
+ <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <main class="container">
+
+    <h1> High-Low Guessing Game</h1>
+
+    <p>Guess a number between 0 and 1000!</p>
+
+    <div class="section">
+      <input id="guessInput" type="number" placeholder="Enter your guess">
+      <button onclick="makeGuess()">Guess</button>
+    </div>
+
+
+    <div id="feedback" class="box"></div>
+
+
+    <div class="section">
+      <button onclick="retryRound()">retryRound</button>
+      <button onclick="quitGame()">Guit Game</button>
+    </div>
+
+
+    <h2>Stats</h2>
+
+    <div id="stats" class="box"></div>
+
+     <div class="images">
+      <img src="https://picsum.photos/90?1">
+      <img src="https://picsum.photos/90?2">
+      <img src="https://picsum.photos/90?3">
+      <img src="https://picsum.photos/90?4">
+      <img src="https://picsum.photos/90?5">
+      <img src="https://picsum.photos/90?6">
+    </div>
 
   </main>
 </body>
